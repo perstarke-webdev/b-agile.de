@@ -1,0 +1,47 @@
+/* style for req42 website */
+
+/* define colors */
+:root {
+  --seminar-req: #dbf0fe;
+  --seminar-arc: #DEEFB7;
+  --lightgrey: #DAE6E6;
+  --dark-blue-text-color: #002080
+}
+
+div.seminar-req {
+    color: var(--dark-blue-text-color);
+    background-color: var(--seminar-req);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.seminar-arc {
+    color: var(--dark-blue-text-color);
+    background-color: var(--seminar-arc);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.coachingsteps{
+    background-color: var(--lightgrey);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+hr.big-sep {
+    border-top: 5px dashed grey
+}
+
+.book {
+    max-width: 150px;
+}
+
+.mobile {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .mobile {
+    display: none;
+  }
+}

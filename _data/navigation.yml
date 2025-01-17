@@ -1,0 +1,24 @@
+main:
+  - title: "Training"
+    url: /seminars
+  - title: "Coaching"
+    url: /coaching
+  - title: "News"
+    url: /news
+  - title: "Bücher"
+    url: /books
+  - title: "Ressourcen"
+    url: /resources
+
+main_en:
+  - title: "Training"
+    url: /en/seminars
+  - title: "Coaching"
+    url: /en/coaching
+  - title: "News"
+    url: /en/news
+  - title: "Books"
+    url: "https://systemsguild.eu/guild-books"
+  - title: "Resources"
+    url: /en/resources
+
